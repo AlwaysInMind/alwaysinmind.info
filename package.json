@@ -1,0 +1,27 @@
+{
+  "name": "alwaysinmind.info",
+  "version": "1.0.0",
+  "description": "AlwaysInMind.info website",
+  "main": "index.js",
+  "scripts": {
+    "start": "hugo server -wDs ./src -d ../dev",
+    "build": "hugo -s ./src -d ../public",
+    "add": "hugo new",
+    "predeploy": "now rm -y alwaysinmindinfo && del /s/q public",
+    "deploy":
+      "yarn build && copy now.json public\\now.json && now --public deploy public/ && now alias",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/AlwaysInMind/alwaysinmind.info.git",
+  "author": "Steve Lee <steve@opendirective.com> (http://opendirective.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlwaysInMind/alwaysinmind.info/issues"
+  },
+  "homepage": "https://github.com/AlwaysInMind/alwaysinmind.info#readme",
+  "private": true,
+  "devDependencies": {
+    "hugo-bin": "^0.22.0",
+    "now": "^9.3.3"
+  }
+}
