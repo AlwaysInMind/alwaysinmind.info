@@ -41,7 +41,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Digital made easy"
-    subtitle = "Some people find it daunting to engage in everyday digital life, especially when faced with complex or confusing technology. In some cases they may have simply not yet learned digital skills assumed by developers.<br/><br/>Always in Mind helps people overcome any worry about using technology and so use it to keep in contact. It does this by providing friendly and easy access to the digital communications that we use daily."
+    subtitle = "Some people find it daunting to engage in everyday digital life, especially when faced with complex or confusing technology. In some cases they may have simply not yet learned digital skills assumed by developers.<br/><br/>Always in Mind helps people overcome any worry about using technology and so use it to keep in contact. It does this by providing friendly, easy and safe access to the digital communications that we use daily."
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -65,7 +65,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Always in touch"
-    description = "Stay in touch anywhere there is internet connectivity such as wifi. Use any device with a web browser, no need to install anything."
+    description = "Stay in touch anywhere there is internet connectivity such as wifi. Use any device with web access, no need to install anything."
 #    url = "#"
 #    button = "Why us?"
     icon = "icon-bubbles"
