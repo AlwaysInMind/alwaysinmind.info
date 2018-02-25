@@ -419,12 +419,12 @@ h6 {
   /* IE10+ */
   background-image: repeating-linear-gradient(
     to bottom right,
-    #3f95ea 0%,
+    #7b3f75 0%,
     #52d3aa 100%
   );
   background-image: -ms-repeating-linear-gradient(
     top left,
-    #3f95ea 0%,
+    #7b3f75 0%,
     #52d3aa 100%
   );
 }
@@ -699,7 +699,7 @@ h6 {
   /* IE10+ */
   background-image: repeating-linear-gradient(
     to bottom right,
-    #3f95ea 0%,
+    #7b3f75 0%,
     #52d3aa 100%
   );
   background-image: -ms-repeating-linear-gradient(
@@ -948,18 +948,18 @@ h6 {
   /* Android 2.3 */
   background-image: -webkit-repeating-linear-gradient(
     top left,
-    #3f95ea 0%,
+    #7b3f75 0%,
     #52d3aa 100%
   );
   /* IE10+ */
   background-image: repeating-linear-gradient(
     to bottom right,
-    #3f95ea 0%,
+    #7b3f75 0%,
     #52d3aa 100%
   );
   background-image: -ms-repeating-linear-gradient(
     top left,
-    #3f95ea 0%,
+    #7b3f75 0%,
     #52d3aa 100%
   );
 }

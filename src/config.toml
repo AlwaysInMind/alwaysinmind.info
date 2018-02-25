@@ -16,12 +16,12 @@ theme = "hugo-elate-theme"
   # Navigation
   [params.navigation]
     brand = "Always in Mind"
-    home = "Digital for all"
+    home = "Digital made easy"
     work = "Work"
     testimonials = "Testimonials"
     services = "Features"
     about = "About"
-    contact = "Contact"
+    contact = "Give it a go"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -40,8 +40,8 @@ theme = "hugo-elate-theme"
 
   # Hero section
   [params.hero]
-    title = "Digital without worry"
-    subtitle = "Elders often find it daunting to engage in everyday digital life, especially when faced with complex or confusing technology. Or perhaps they have not yet learned the assumed digital skills.<br/><br/>Always in Mind lets Elders overcome the worry and stay in contact. It does this by providing friendly and easy access to the digital communications that we use daily."
+    title = "Digital made easy"
+    subtitle = "Some people find it daunting to engage in everyday digital life, especially when faced with complex or confusing technology. In some cases they may have simply not yet learned digital skills assumed by developers.<br/><br/>Always in Mind helps people overcome any worry about using technology and so use it to keep in contact. It does this by providing friendly and easy access to the digital communications that we use daily."
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -49,7 +49,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Shared digital life"
-    description = "Elders and relatives or friends can more easily share digital experiences including photos, videos and messages."
+    description = "Relatives and friends can more easily share digital experiences including photos, videos and messages."
 #    url = "#"
 #    button = "Get In Touch"
     icon = "icon-share"
@@ -57,7 +57,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Easy Access"
-    description = "Uncomplicated, helpful and personalisable access means elders can become more confident in engaging with digital."
+    description = "Uncomplicated, helpful and personalisable access means everyone can become more confident in engaging with digital."
 #    url = "#"
 #    button = "Click Me"
     icon = "icon-star"
@@ -149,16 +149,16 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Always in Mind Features"
-    description = "Always in Mind is designed for Elders who may be uncomfortable with digital technology but would love to use it to share with friends and relatives."
+    description = "Always in Mind is designed for those who may be uncomfortable or unfamiliar with digital technology but would love to use it to share with friends and relatives."
 
     [[params.services.item]]
       title = "Easy to Use"
-      description = "Uncluttered screens of touch buttons with clear text labels or pictures. Clear navigation between screens to avoid getting lost."
+      description = "Touch buttons with clear text or pictures appear in uncluttered screens and clear navigation avoids getting lost."
       icon = "icon-star"
 
     [[params.services.item]]
-      title = "Personalisable"
-      description = "Individual user preferences are catered for, such as the use of speech or the complexity of screen layout."
+      title = "Personalisation"
+      description = "Options cater for Individual user preferences and varying screen complexity."
       icon = "icon-settings"
 
     [[params.services.item]]
@@ -167,9 +167,19 @@ theme = "hugo-elate-theme"
       icon = "icon-map"
 
     [[params.services.item]]
-      title = "Share with popular platforms"
-      description = "Photos and messages are shared in popular online services such as Google or Facebook. Continue using your favourites."
+      title = "Share with popular websites"
+      description = "Access photos and messages shared in popular websites such as Google or Facebook."
       icon = "icon-bubbles"
+
+    [[params.services.item]]
+      title = "Safe and secure"
+      description = "Activities cannot cause damage and connections are safely restricted to people you trust."
+      icon = "icon-key"
+
+    [[params.services.item]]
+      title = "Low cost"
+      description = "Reasonable subscription rates will be introduced after a free trial period of use."
+      icon = "icon-earphones-alt"
 
     [[params.services.item]]
       title = "Reliable service"
@@ -177,8 +187,8 @@ theme = "hugo-elate-theme"
       icon = "icon-earphones-alt"
 
     [[params.services.item]]
-      title = "Collaboration for Innovation"
-      description = "Open collaboration is a powerful force for innovation so Always in Mind is developed in the open."
+      title = "Developed by many"
+      description = "Ideas and contributions are most welcome from all. Open source means collaborative development."
       icon = "icon-puzzle"
 
   # About section
@@ -266,18 +276,18 @@ theme = "hugo-elate-theme"
     enable = true
     map = false
     form = false
-    title = "Get in touch"
-    description = "Want to find out more or try Always in Mind?"
+    title = "Give it a Go"
+    description = "Try Always in Mind as we develop it and let us know what you think."
 
     # Available icons: http://simplelineicons.com/
     details = [
 #        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
 #        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", '<a href="mailto:steve@opendirective.com?subject=Always in Mind query&amp;body=Your Message">reach us with email steve@opendirective.com</a>'],
-#        ["icon-twitter", '<a href="https://twitter.com/alwaysinmind_" target="_blank">alwaysinmind on Twitter</a>'],
+        ["icon-globe", '<a href="https://alwaysinmind.now.sh/" target="_blank">Try the free version</a>'],
+        ["icon-envelope", '<a href="mailto:info@alwaysinmind.info?subject=Always in Mind query&amp;body=Your Message">Email your thoughts to info@alwaysinmind.info</a>'],
+        ["icon-twitter", '<a href="https://twitter.com/AlwaysInMind_" target="_blank">Follow and tweet us on Twitter</a>'],
 #        ["icon-facebook", "#facebook"],
-        ["icon-github", '<a href="https://github.com/AlwaysInMind" target="_blank">join us on GitHub</a>'],
-        ["icon-globe", '<a href="https://alwaysinmind.now.sh/" target="_blank">Try the demo as it develops</a>']
+        ["icon-github", '<a href="https://github.com/AlwaysInMind" target="_blank">Raise issues or join in on GitHub</a>']
       ]
 
     name = "Name"
