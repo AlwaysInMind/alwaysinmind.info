@@ -7,6 +7,10 @@
           <div class="col-md-8 col-md-offset-2">
             <h1 class="zto-animate">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</h1>
             <h2 class="zto-animate">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</h2>
+            <div>
+              <br/>
+              <a href="{{ with .Site.Params.hero.url }}{{ . | markdownify }}{{ end }}" class="btn btn-primary">{{ with .Site.Params.hero.button}}{{ . | markdownify }}{{ end }}</a>
+            </div>
           </div>
         </div>
       </div>

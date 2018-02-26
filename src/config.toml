@@ -42,6 +42,8 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = "Digital made easy"
     subtitle = "Some people find it daunting to engage in everyday digital life, especially when faced with complex or confusing technology. Often, the feeling is they lack the basic digital skills assumed in website and app designs.<br/><br/>Always in Mind helps people overcome this worry so they start to discover how digital enables them to keep in contact with family and friends. It does this by providing friendly, easy and safe access to the digital websites and communications that we use daily."
+    url = "#fh5co-contact"
+    button = "Find Out More"
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -50,24 +52,24 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Shared digital life"
     description = "Relatives and friends can easily share digital experiences including photos, videos and messages."
-    url = "#fh5co-contact"
-    button = "Find Out More"
+#    url = "#fh5co-contact"
+#    button = "Find Out More"
     icon = "icon-share"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Easy Access"
     description = "Friendly, helpful, safe and personalised means everyone can become more confident using digital technology."
-    url = "#fh5co-contact"
-    button = "Find Out More"
+#    url = "#fh5co-contact"
+#    button = "Find Out More"
     icon = "icon-star"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Always in touch"
     description = "Stay in touch anywhere with a device that can access the web. There's no need to install anything."
-    url = "#fh5co-contact"
-    button = "Find Out More"
+#    url = "#fh5co-contact"
+#    button = "Find Out More"
     icon = "icon-bubbles"
     img = "img_10.jpg"
 
@@ -277,17 +279,17 @@ theme = "hugo-elate-theme"
     map = false
     form = "yes"
     title = "Find out More"
-    description = "Signup for our newsletter mailing list to get news and updates."
+    description = "Signup for our newsletter, try the demo or join in on GitHub."
 
     # Available icons: http://simplelineicons.com/
     details = [
 #        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
 #        ["icon-phone", "(123) 465-6789"],
-#        ["icon-globe", '<a href="https://alwaysinmind.now.sh/" target="_blank">Try the free version</a>'],
-#        ["icon-envelope", '<a href="mailto:info@alwaysinmind.info?subject=Always in Mind query&amp;body=Your Message">Email your thoughts to info@alwaysinmind.info</a>'],
-     #   ["icon-twitter", '<a href="https://twitter.com/AlwaysInMind_" target="_blank">Follow and tweet us on Twitter</a>']
+        ["icon-globe", '<a href="https://alwaysinmind.now.sh/" target="_blank">Try the demo</a>'],
+#        ["icon-twitter", '<a href="https://twitter.com/AlwaysInMind_" target="_blank">Find us on Twitter</a>'],
 #        ["icon-facebook", "#facebook"],
-#        ["icon-github", '<a href="https://github.com/AlwaysInMind" target="_blank">Raise issues or join in on GitHub</a>']
+        ["icon-github", '<a href="https://github.com/AlwaysInMind" target="_blank">Developers - join us on GitHub</a>'],
+        ["icon-envelope", '<a href="mailto:info@alwaysinmind.info?subject=Always in Mind query&amp;body=Your Message">Email info@alwaysinmind.info</a>']
 ]
 
     name = "Name"
@@ -303,5 +305,5 @@ theme = "hugo-elate-theme"
     links = [
         ["icon-twitter", "https://twitter.com/alwaysinmind_"],
 #        ["icon-facebook", "#facebook"],
-        ["icon-github", "https://github.com/AlwaysInMind"]
+        ["icon-github", "https://github.com/AlwaysInMind/alwaysinmind.info"]
       ]
