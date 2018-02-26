@@ -41,7 +41,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Digital made easy"
-    subtitle = "Some people find it daunting to engage in everyday digital life, especially when faced with complex or confusing technology. In some cases they may have simply not yet learned digital skills assumed by developers.<br/><br/>Always in Mind helps people overcome any worry about using technology and so use it to keep in contact. It does this by providing friendly, easy and safe access to the digital communications that we use daily."
+    subtitle = "Some people find it daunting to engage in everyday digital life, especially when faced with complex or confusing technology. Often, the feeling is they lack the basic digital skills assumed in website and app designs.<br/><br/>Always in Mind helps people overcome this worry so they start to discover how digital enables them to keep in contact with family and friends. It does this by providing friendly, easy and safe access to the digital websites and communications that we use daily."
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -49,7 +49,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Shared digital life"
-    description = "Relatives and friends can more easily share digital experiences including photos, videos and messages."
+    description = "Relatives and friends can easily share digital experiences including photos, videos and messages."
 #    url = "#"
 #    button = "Get In Touch"
     icon = "icon-share"
@@ -57,7 +57,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Easy Access"
-    description = "Uncomplicated, helpful and personalisable access means everyone can become more confident in engaging with digital."
+    description = "Uncomplicated, helpful and personalised features mean everyone can become more confident using digital technology."
 #    url = "#"
 #    button = "Click Me"
     icon = "icon-star"
@@ -65,7 +65,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Always in touch"
-    description = "Stay in touch anywhere there is internet connectivity such as wifi. Use any device with web access, no need to install anything."
+    description = "Stay in touch anywhere with a device that has access to the web. There's no need to install anything."
 #    url = "#"
 #    button = "Why us?"
     icon = "icon-bubbles"
@@ -153,12 +153,12 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Easy to Use"
-      description = "Touch buttons with clear text or pictures appear in uncluttered screens and clear navigation avoids getting lost."
+      description = "Touch buttons with clear text or pictures are organised into uncluttered screens with clearly signposted navigation."
       icon = "icon-star"
 
     [[params.services.item]]
       title = "Personalisation"
-      description = "Options cater for Individual user preferences and varying screen complexity."
+      description = "Options cater for individual user preferences and screen complexity that can be changed as requirments change."
       icon = "icon-settings"
 
     [[params.services.item]]
@@ -168,28 +168,28 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Share with popular websites"
-      description = "Access photos and messages shared in popular websites such as Google or Facebook."
+      description = "Privately access photos and messages shared in popular websites such as Google or Facebook."
       icon = "icon-bubbles"
 
     [[params.services.item]]
       title = "Safe and secure"
-      description = "Activities cannot cause damage and connections are safely restricted to people you trust."
+      description = "Activities cannot cause damage to content and connections are safely restricted to people you trust."
       icon = "icon-key"
 
     [[params.services.item]]
-      title = "Low cost"
-      description = "Reasonable subscription rates will be introduced after a free trial period of use."
+      title = "Reliable service"
+      description = "A fully supported web service using \"best of breed\" technologies and services."
       icon = "icon-earphones-alt"
 
     [[params.services.item]]
-      title = "Reliable service"
-      description = "Always in Mind is a fully supported web service using \"best of breed\" technologies and services."
-      icon = "icon-earphones-alt"
+      title = "Low cost"
+      description = "No hassle and affordable subscription rates with for easy access with easy cancellation."
+      icon = "icon-wallet"
 
     [[params.services.item]]
       title = "Developed by many"
-      description = "Ideas and contributions are most welcome from all. Open source means collaborative development."
-      icon = "icon-puzzle"
+      description = "Your ideas and contributions welcome to make improvements. The open source project powers collaborative development."
+      icon = "icon-people"
 
   # About section
   [params.about]
@@ -277,7 +277,7 @@ theme = "hugo-elate-theme"
     map = false
     form = false
     title = "Give it a Go"
-    description = "Try Always in Mind as we develop it and let us know what you think."
+    description = "Try Always in Mind let us know what you think."
 
     # Available icons: http://simplelineicons.com/
     details = [
