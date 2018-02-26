@@ -1,7 +1,7 @@
 <section id="fh5co-contact" data-section="contact">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 section-heading text-center">
+      <div class="col-md-12 section-heading text-center" style="margin:0 ">
         <h2 class="zto-animate">{{ with .Site.Params.contact.title }}{{ . | markdownify }}{{ end }}</h2>
         <div class="row">
           <div class="col-md-8 col-md-offset-2 subtext zto-animate">
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="row row-bottom-padded-md">
-      <div class="col-md-6 zto-animate">
+      <div class="col-md-4 zto-animate">
         <h3>{{ with .Site.Params.contact.info }}{{ . | markdownify }}{{ end }}</h3>
         <ul class="fh5co-contact-info">
           {{ range .Site.Params.contact.details }}
@@ -22,32 +22,25 @@
       </div>
       {{ if .Site.Params.contact.form }}
       <div class="col-md-6 zto-animate">
-        <h3>{{ with .Site.Params.contact.form }}{{ . | markdownify }}{{ end }}</h3>
-        <form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
-          <div class="form-group ">
-            {{ with .Site.Params.contact.name }}
-            <label for="name" class="sr-only">{{ . | markdownify }}</label>
-            <input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text"> {{ end }}
-          </div>
-          <div class="form-group ">
-            {{ with .Site.Params.contact.email }}
-            <label for="email" class="sr-only">{{ . | markdownify }}</label>
-            <input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email"> {{ end }}
-          </div>
-          <div class="form-group ">
-            {{ with .Site.Params.contact.phone }}
-            <label for="phone" class="sr-only">{{ . | markdownify }}</label>
-            <input id="phone" class="form-control" name="phone" placeholder="{{ . }}" type="text"> {{ end }}
-          </div>
-          <div class="form-group ">
-            {{ with .Site.Params.contact.message }}
-            <label for="message" class="sr-only">{{ . | markdownify }}</label>
-            <textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea> {{ end }}
-          </div>
-          <div class="form-group ">
-            <input class="btn btn-primary btn-lg" value="{{ .Site.Params.contact.button | markdownify }}" type="submit">
-          </div>
-        </form>
+        <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+        <div id="mc_embed_signup">
+          <form action="https://opendirective.us14.list-manage.com/subscribe/post?u=b9dd99bd8c59b19d930ab3042&amp;id=0471705d17" method="post"
+            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_b9dd99bd8c59b19d930ab3042_0471705d17" tabindex="-1" value="">
+              </div>
+              <div class="clear">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!--End mc_embed_signup-->
       </div>
       {{ end }}
     </div>

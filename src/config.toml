@@ -21,7 +21,7 @@ theme = "hugo-elate-theme"
     testimonials = "Testimonials"
     services = "Features"
     about = "About"
-    contact = "Give it a go"
+    contact = "Find out More"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -50,24 +50,24 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Shared digital life"
     description = "Relatives and friends can easily share digital experiences including photos, videos and messages."
-#    url = "#"
-#    button = "Get In Touch"
+    url = "#fh5co-contact"
+    button = "Find Out More"
     icon = "icon-share"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Easy Access"
-    description = "Uncomplicated, helpful and personalised features mean everyone can become more confident using digital technology."
-#    url = "#"
-#    button = "Click Me"
+    description = "Friendly, helpful, safe and personalised means everyone can become more confident using digital technology."
+    url = "#fh5co-contact"
+    button = "Find Out More"
     icon = "icon-star"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Always in touch"
-    description = "Stay in touch anywhere with a device that has access to the web. There's no need to install anything."
-#    url = "#"
-#    button = "Why us?"
+    description = "Stay in touch anywhere with a device that can access the web. There's no need to install anything."
+    url = "#fh5co-contact"
+    button = "Find Out More"
     icon = "icon-bubbles"
     img = "img_10.jpg"
 
@@ -275,20 +275,20 @@ theme = "hugo-elate-theme"
   [params.contact]
     enable = true
     map = false
-    form = false
-    title = "Give it a Go"
-    description = "Try Always in Mind let us know what you think."
+    form = "yes"
+    title = "Find out More"
+    description = "Signup to our mailing list to get news and updates."
 
     # Available icons: http://simplelineicons.com/
     details = [
 #        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
 #        ["icon-phone", "(123) 465-6789"],
-        ["icon-globe", '<a href="https://alwaysinmind.now.sh/" target="_blank">Try the free version</a>'],
-        ["icon-envelope", '<a href="mailto:info@alwaysinmind.info?subject=Always in Mind query&amp;body=Your Message">Email your thoughts to info@alwaysinmind.info</a>'],
-        ["icon-twitter", '<a href="https://twitter.com/AlwaysInMind_" target="_blank">Follow and tweet us on Twitter</a>'],
+#        ["icon-globe", '<a href="https://alwaysinmind.now.sh/" target="_blank">Try the free version</a>'],
+#        ["icon-envelope", '<a href="mailto:info@alwaysinmind.info?subject=Always in Mind query&amp;body=Your Message">Email your thoughts to info@alwaysinmind.info</a>'],
+     #   ["icon-twitter", '<a href="https://twitter.com/AlwaysInMind_" target="_blank">Follow and tweet us on Twitter</a>']
 #        ["icon-facebook", "#facebook"],
-        ["icon-github", '<a href="https://github.com/AlwaysInMind" target="_blank">Raise issues or join in on GitHub</a>']
-      ]
+#        ["icon-github", '<a href="https://github.com/AlwaysInMind" target="_blank">Raise issues or join in on GitHub</a>']
+]
 
     name = "Name"
     email = "Email"
