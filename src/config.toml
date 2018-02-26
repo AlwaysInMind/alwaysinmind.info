@@ -277,7 +277,7 @@ theme = "hugo-elate-theme"
     map = false
     form = "yes"
     title = "Find out More"
-    description = "Signup to our mailing list to get news and updates."
+    description = "Signup for our newsletter mailing list to get news and updates."
 
     # Available icons: http://simplelineicons.com/
     details = [
