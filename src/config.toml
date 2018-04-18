@@ -15,7 +15,7 @@ theme = "hugo-elate-theme"
 
   # Navigation
   [params.navigation]
-    brand = "Always in Mind"
+    brand = "Always in Mind<p/><img src='images/AiM_Logo.png' />"
     home = "Digital made easy"
     work = "Work"
     testimonials = "Testimonials"
