@@ -6,7 +6,7 @@
 
 # production
 /dev
-/public
+
 
 # misc
 .DS_Store
