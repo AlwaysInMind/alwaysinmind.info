@@ -41,7 +41,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Digital made easy"
-    subtitle = "Some people find it difficult or daunting to engage in everyday digital activities, especially when faced with complex or confusing technology. As a result, people with dementia, learning disabilities or following a stroke may find it difficult for them to join in with  the daily digital interactions of their family and friends.<br/><br/>Always in Mind helps overcome this barrier and provides simplified, friendly and safe access to the digital photos, videos, websites and communications that we use daily."
+    subtitle = "Some people find it difficult or daunting to engage in everyday digital activities, especially when faced with complex or confusing technology. As a result, people with dementia, learning disabilities or following a stroke may find it difficult to join in with  the daily digital interactions of their family and friends.<br/><br/>Always in Mind helps overcome this barrier by providing simplified, friendly and safe access to the digital photos, videos, websites and communications that we use daily."
     url = "#fh5co-contact"
     button = "Find Out More"
 
@@ -59,7 +59,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Easy Access"
-    description = "Friendly, helpfull, safe and personalised access means everyone can become more confident using digital technology."
+    description = "Friendly, safe and personalised access means everyone can become more confident using digital technology."
 #    url = "#fh5co-contact"
 #    button = "Find Out More"
     icon = "icon-star"
@@ -74,10 +74,10 @@ theme = "hugo-elate-theme"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = false
-    title = "Watch this video of a prototype of Always In Mind"
+    enable = true
+    title = "Watch this video of Always In Mind"
     icon = "icon-play2"
-    url = "https://youtu.be/F1ATPYSv02Y"
+    url = "https://alwaysinmind.info/images/demo.mp4"
 
 
   # Work section
@@ -151,7 +151,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Always in Mind Features"
-    description = "Always in Mind is designed for those who are uncomfortable or unfamiliar with digital technology but would love to use it to share with friends and relatives. It's carefully developed to by non-initimidating to elders and people with learning difficulties."
+    description = "Always in Mind simplifies the use of existing web media and communication services like photos, videos and email. Family and friends use these services as usual and can mark items for sharing with the Always in Mind user or send them messages."
 
     [[params.services.item]]
       title = "Easy to Use"
@@ -285,6 +285,7 @@ theme = "hugo-elate-theme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-globe", '<a href="https://alwaysinmind.now.sh" target="_blank">Try the Demo</a>'],
+        ["icon-github", '<a href="https://github.com/AlwaysInMind/aim-web-app/blob/master/README.md" target="_blank">See the Readme documentation</a>'],
         ["icon-twitter", '<a href="https://twitter.com/AlwaysInMind_" target="_blank">Follow us on Twitter</a>'],
         ["icon-envelope", '<a href="mailto:info@alwaysinmind.info?subject=Always in Mind query&amp;body=Your Message">Email info@alwaysinmind.info</a>']
       ]
@@ -297,7 +298,7 @@ theme = "hugo-elate-theme"
 
     title2 = "Work with Us"
     description2 = "Join in our Mission to provide Simpler User Experiences."
-    info2 = "Our Open Source activity:"
+    info2 = "Our Open Source project:"
     details2 = [
         ["icon-github", '<a href="https://github.com/AlwaysInMind" target="_blank">Join us on GitHub</a>'],
       ]
