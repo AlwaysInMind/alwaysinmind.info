@@ -41,7 +41,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Digital made easy"
-    subtitle = "Some people find it difficult or daunting to engage in everyday digital activities, especially when faced with complex or confusing technology. As a result, people with dementia, learning disabilities or following a stroke may find it difficult to join in with  the daily digital interactions of their family and friends.<br/><br/>Always in Mind helps overcome this barrier by providing simplified, friendly and safe access to the digital photos, videos, websites and communications that we use daily."
+    subtitle = "Some people find it difficult or daunting to engage in everyday digital activities, especially when faced with complex or confusing technology. People with dementia, learning disabilities or a brain injury may be unable to join in with their family and friend's on-line interactions.<br/><br/>Always in Mind helps overcome this barrier by providing simplified, friendly and safe access to every-day digital photos, videos, websites and emails."
     url = "#fh5co-contact"
     button = "Find Out More"
 
@@ -67,7 +67,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Always in touch"
-    description = "Stay in touch anywhere with any device that can access the web. There's no need to install anything such as an app."
+    description = "Family, friends and supporters can select available media using existing digital social tools."
 #    url = "#fh5co-contact"
 #    button = "Find Out More"
     icon = "icon-bubbles"
@@ -310,5 +310,5 @@ theme = "hugo-elate-theme"
     links = [
         ["icon-twitter", "https://twitter.com/alwaysinmind_"],
 #        ["icon-facebook", "#facebook"],
-        ["icon-github", "https://github.com/AlwaysInMind/alwaysinmind.info"]
+        ["icon-github", "https://github.com/AlwaysInMind"]
       ]
