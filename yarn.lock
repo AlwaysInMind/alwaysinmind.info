@@ -811,9 +811,9 @@ hosted-git-info@^2.1.4:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.5.0.tgz#6d60e34b3abbc8313062c3b798ef8d901a07af3c"
 
-hugo-bin@^0.28.0:
-  version "0.28.0"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.28.0.tgz#b27a78dae451e2ea219728b919d2f03346c74b6a"
+hugo-bin@^0.29.0:
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.29.0.tgz#dacd08d17433dcdba9680fa4f2b73c2b967e616c"
   dependencies:
     bin-wrapper "3.0.2"
     del-cli "1.1.0"
@@ -1296,9 +1296,9 @@ normalize-path@^2.0.1:
   dependencies:
     remove-trailing-separator "^1.0.1"
 
-now@^11.1.16:
-  version "11.1.16"
-  resolved "https://registry.yarnpkg.com/now/-/now-11.1.16.tgz#7c385c82c4fa8df0a5f1833f87299069f9903afc"
+now@^11.2.4:
+  version "11.2.4"
+  resolved "https://registry.yarnpkg.com/now/-/now-11.2.4.tgz#68e3a0677c323bb0d4e968ffda4845ead0236393"
 
 npm-run-path@^2.0.0:
   version "2.0.2"
