@@ -66,8 +66,8 @@ theme = "hugo-elate-theme"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Always in touch"
-    description = "Family, friends and supporters can select available media using existing digital social tools."
+    title = "Easy set-up"
+    description = "Family, friends and supporters simply select media to share using existing digital social tools."
 #    url = "#fh5co-contact"
 #    button = "Find Out More"
     icon = "icon-bubbles"
