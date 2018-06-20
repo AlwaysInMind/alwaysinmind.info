@@ -41,7 +41,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Digital made easy"
-    subtitle = "Some people find it difficult or daunting to engage in everyday digital activities, especially when faced with complex or confusing technology. People with dementia, learning disabilities or a brain injury may be unable to join in with their family and friend's on-line interactions.<br/><br/>Always in Mind helps overcome this barrier by providing simplified, friendly and safe access to every-day digital photos, videos, websites and emails."
+    subtitle = "<a style=\"font-size:larger; color:yellow; weight:bold\" href=\"https://www.tech4goodawards.com/finalist/always-in-mind\">Vote for us!</a> in the Tech4GoodAwards.<br/><br/>Some people find it difficult or daunting to engage in everyday digital activities, especially when faced with complex or confusing technology. People with dementia, learning disabilities or a brain injury may be unable to join in with their family and friend's on-line interactions.<br/><br/>Always in Mind helps overcome this barrier by providing simplified, friendly and safe access to every-day digital photos, videos, websites and emails."
     url = "#fh5co-contact"
     button = "Find Out More"
 
@@ -77,7 +77,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Watch this video of Always In Mind"
     icon = "icon-play2"
-    url = "https://alwaysinmind.info/images/demo.mp4"
+    url = "https://youtu.be/LyJbLxjIls84"
 
 
   # Work section
