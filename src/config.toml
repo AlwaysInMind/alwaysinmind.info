@@ -50,7 +50,7 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Peace of Mind"
+    title = "Easy Contact"
     description = "Stay in contact with relatives and friends to share experiences using digital photos, messages and more."
 #    url = "#fh5co-contact"
 #    button = "Find Out More"
@@ -67,7 +67,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Easy set-up"
-    description = "Family, friends and supporters simply select media to share using existing digital social tools."
+    description = "Family, friends and supporters simply select media to share using existing digital social tools like Google."
 #    url = "#fh5co-contact"
 #    button = "Find Out More"
     icon = "icon-bubbles"
@@ -151,7 +151,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Always in Mind Features"
-    description = "Always In Mind makes it easy to see favourite photos, youTube videos and email messages that are selected in a user's Google account. Web pages can be viewed and a simple speech (AAC) feature supports no verbal users. See the Demo."
+    description = "Always In Mind makes it easy to see favourite photos, youTube videos and email messages that have been prepared in a user's Google account. Web pages can be viewed and a simple speech (AAC) feature supports no verbal users."
 
     [[params.services.item]]
       title = "Easy to Use"
