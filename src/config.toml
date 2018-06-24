@@ -151,7 +151,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Always in Mind Features"
-    description = "Always in Mind simplifies the use of existing web media and communication services like photos, videos and email. Family and friends use these services as usual and can mark items for sharing with the Always in Mind user or send them messages."
+    description = "Always In Mind makes it easy to see favourite photos, youTube videos and email messages that are selected in a user's Google account. Web pages can be viewed and a simple speech (AAC) feature supports no verbal users. See the Demo."
 
     [[params.services.item]]
       title = "Easy to Use"
