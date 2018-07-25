@@ -40,8 +40,8 @@ theme = "hugo-elate-theme"
 
   # Hero section
   [params.hero]
-    title = "Digital made easy"
-    subtitle = "<a style=\"font-size:larger; color:yellow; weight:bold\" href=\"https://www.tech4goodawards.com/finalist/always-in-mind\">Vote for us!</a> in the Tech4GoodAwards.<br/><br/>Some people find it difficult or daunting to engage in everyday digital activities, especially when faced with complex or confusing technology. People with dementia, learning disabilities or a brain injury may be unable to join in with their family and friend's on-line interactions.<br/><br/>Always in Mind helps overcome this barrier by providing simplified, friendly and safe access to every-day digital photos, videos, websites and emails."
+    title = "Digital Made Easy"
+    subtitle = "<a style=\"font-size:larger; color:yellow; weight:bold\" href=\"https://www.tech4goodawards.com/finalist/always-in-mind\">Tech4Good Awards Finalists</a>.<br/><br/>People with dementia, learning disabilities or brain injuries can easily become anxious and find technology confusing.<br/><br/>They may refuse every-day digital interactions with family and friends. This makes it hard to stay in touch.<br/><br/>Always in Mind helps by providing simplified, stress-free and safe access to every-day digital interactions."
     url = "#fh5co-contact"
     button = "Find Out More"
 
@@ -51,7 +51,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Easy Contact"
-    description = "Stay in contact with relatives and friends to share experiences using digital photos, messages and more."
+    description = "Stay in contact with relatives and friends to ensure all is well."
 #    url = "#fh5co-contact"
 #    button = "Find Out More"
     icon = "icon-share"
@@ -59,15 +59,15 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Easy Access"
-    description = "Friendly, safe and personalised access means everyone can become more confident using digital technology."
+    description = "Friendly, safe and personalised access enables confident stress-free use of digital technology."
 #    url = "#fh5co-contact"
 #    button = "Find Out More"
     icon = "icon-star"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Easy set-up"
-    description = "Family, friends and supporters simply select media to share using existing digital social tools like Google."
+    title = "Easy Sharing"
+    description = "Share photos and messages using existing digital services like Google Photos and Youtube."
 #    url = "#fh5co-contact"
 #    button = "Find Out More"
     icon = "icon-bubbles"
@@ -151,7 +151,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Always in Mind Features"
-    description = "Always In Mind makes it easy to see favourite photos, youTube videos and email messages that have been prepared in a user's Google account. Web pages can be viewed and a simple speech (AAC) feature supports no verbal users."
+    description = "Always In Mind makes it easy to see favourite photos, videos and messages that have been prepared in a user's Google account. Web pages can be viewed and a simple speech (AAC) feature supports no verbal users."
 
     [[params.services.item]]
       title = "Easy to Use"
@@ -301,6 +301,7 @@ theme = "hugo-elate-theme"
     info2 = "Our Open Source project:"
     details2 = [
         ["icon-github", '<a href="https://github.com/AlwaysInMind" target="_blank">Join us on GitHub</a>'],
+        ["icon-globe", '<a href="http://www.opendirective.com/" target="_blank">OpenDirective Ltd.</a>']
       ]
 
   # Footer section
