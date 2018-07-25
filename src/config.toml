@@ -287,8 +287,7 @@ theme = "hugo-elate-theme"
         ["icon-globe", '<a href="https://alwaysinmind.now.sh" target="_blank">Try the Demo</a>'],
         ["icon-github", '<a href="https://github.com/AlwaysInMind/aim-web-app/blob/master/README.md" target="_blank">See the Readme documentation</a>'],
         ["icon-twitter", '<a href="https://twitter.com/AlwaysInMind_" target="_blank">Follow us on Twitter</a>'],
-        ["icon-envelope", '<a href="mailto:info@alwaysinmind.info?subject=Always in Mind query&amp;body=Your Message">Email info@alwaysinmind.info</a>'],
-        ["icon-globe", '<a href="http://www.opendirective.com/" target="_blank">OpenDirective Ltd.</a>']
+        ["icon-envelope", '<a href="mailto:info@alwaysinmind.info?subject=Always in Mind query&amp;body=Your Message">Email info@alwaysinmind.info</a>']
       ]
 
     name = "Name"
@@ -299,9 +298,10 @@ theme = "hugo-elate-theme"
 
     title2 = "Work with Us"
     description2 = "Join in our Mission to provide Simpler User Experiences."
-    info2 = "Open Source project:"
+    info2 = "Open Source Development:"
     details2 = [
-        ["icon-github", '<a href="https://github.com/AlwaysInMind" target="_blank">Join us on GitHub</a>']
+        ["icon-github", '<a href="https://github.com/AlwaysInMind" target="_blank">Join us on GitHub</a>'],
+        ["icon-globe", '<a href="http://www.opendirective.com/" target="_blank">Discover OpenDirective Ltd.</a>']
       ]
 
   # Footer section
