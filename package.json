@@ -20,6 +20,6 @@
   "private": true,
   "devDependencies": {
     "hugo-bin": "^0.29.0",
-    "now": "^11.2.4"
+    "now": "^11.3.1"
   }
 }
